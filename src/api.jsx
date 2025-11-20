@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://express-jwt-vl8z.onrender.com",
+  baseURL: "https://express-jwt-4h94.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
